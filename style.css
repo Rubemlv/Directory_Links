@@ -1,0 +1,69 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #008080, #004080);
+    margin: 0;
+    color: #fff;
+}
+
+/* Rest of your styles remain unchanged */
+
+
+h1 {
+    color: #fff;
+    margin-top: 50px; /* Adjusted margin for better spacing */
+    margin-bottom: 50px; /* Adjusted margin for better spacing */
+    font-size: 2.5rem; /* Adjusted font size for better readability */
+    letter-spacing: 1px; /* Added letter spacing for better readability */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Added a subtle text shadow for better contrast */
+
+    /* Optional: Adjusted line height for better spacing */
+    line-height: 1.5;
+}
+
+
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+   
+   
+}
+
+button {
+    margin: 20px;
+    padding: 90px 50px;
+    width: 180px;
+    background-color: #000000; /* Marrom Escuro */
+    color: #fff; /* Cor do texto em branco */
+    /* Outros estilos... */
+    border: none;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: bold;
+    opacity: 0.8;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2)
+    
+}
+
+button:hover {
+    background-color: #3c4a52;
+}
+
+/* Optional: Add a subtle box shadow for depth */
+button:focus {
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.7);
+}
+
+/* Optional: Style for active state */
+button:active {
+    background-color: #1f618d;
+}
+
+/* Optional: Add any additional styles or modifications as needed */
