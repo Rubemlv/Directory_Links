@@ -3,7 +3,7 @@ function validateLogin() {
     var password = document.getElementById("password").value;
 
     // Verificar se o nome de usuário e senha são válidos
-    if (username === "eto" && password === "eto@energisa") {
+    if (username === "user" && password === "senha") {
         // Login bem-sucedido, redirecionar ou fazer outras ações necessárias
         window.location.href = "direct.html";
     } else {
